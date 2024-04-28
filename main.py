@@ -20,3 +20,17 @@ if __name__ == "__main__":
     end:    string appended after the last value, default a newline.
     flush:  whether to forcibly flush the stream.
   """
+
+  # Using docstrings to document functions
+
+  def add(a, b):
+    """Add two arguments
+    Arguments:
+      a: an integer
+      b: an integer
+    Returns:
+      The sum of the two arguments
+    """
+    return a + b
+
+  print(add.__doc__)
